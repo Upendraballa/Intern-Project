@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.kfc-container {
+    position: relative;
+    text-align: center;
+    color: green;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}p{
+	font-size: 40px;
+}
+.left{
+	position: relative;
+	right: 200px;
+}
+.text{
+	font-size: 20px;
+}
+.kf-container{
+	position: relative;
+	top: 600px;
+}
+</style>
+</head>
+<body>
+<div class="kfc-container">
+	<img class="mySlides" src="/home/grepthor/Desktop/intern/kfc1.jpg" height="500px" width="60%">
+		<div class="centered"><p>Chicken Menu</p>
+			<div class="left"><p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
+				<p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
+			</div>
+		</div>
+	</div>
+<div class="kf-container">
+	<img class="mySlides" src="/home/grepthor/Desktop/intern/fc.jpg" height="500px" width="60%">
+		<div class="centered"><p>Menu</p>
+			<div class="left"><p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
+				<p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
+			</div>
+		</div>
+	</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>

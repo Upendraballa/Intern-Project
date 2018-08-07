@@ -1,0 +1,438 @@
+/*section*/
+		header{
+	background: Tomato ;
+	height: 50px;
+	width: 100%;
+}
+.name{
+	text-indent: 5px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: SeaShell;
+}
+a{
+	position: relative;
+	left: 400px;
+	bottom: 30px;
+	text-decoration: none;
+	font-family: 'Neucha', cursive;
+	color: SeaShell;
+	font-size: 20px;
+	padding-left: 50px;
+	cursor:pointer;
+}
+a:hover{
+	color: DodgerBlue;
+}
+/*section1*/
+.mySlides{
+	display: block;
+}
+/*section2*/
+h1{
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+	word-spacing: 15px;
+	letter-spacing: 5px;
+}
+p{
+	float: center;
+	display: inline;
+}
+.div1 {
+	position: relative;
+	left: 200px;
+	top: 30px;
+    width: 300px;
+    height: 300px;
+    border:none;
+}
+
+.div2 {
+    width: 400px;
+    height: 70px;   
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    text-align: justify;
+    font-size: 25px;
+    text-indent: 20px;
+    line-height: 28px;
+    padding:6px;
+    font-family: 'Cookie', cursive;
+}
+.section{
+	background-color: grey;
+display: inline;
+}
+/*section3*/
+.picture {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+picture:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+/**/
+.menu{
+	height: 150px;
+	width: 100%;
+}
+.items1{
+	position: static;
+	height: 130px;
+	width: 19%;
+	border:none;
+	background-image: url("restaurent-logo1.jpg");
+}
+.items2{
+	position: relative;
+	left: 260px;
+	height: 130px;
+	width: 90%;
+	background-image: url("restaurent-logo2.jpg");
+}
+.items3{
+	position: relative;
+	left: 240px;
+	height: 130px;
+	width: 55%;
+	background-image: url("bav.png");
+}
+.items4{
+	position: relative;
+	left: 150px;
+	height: 130px;
+	width: 240%;
+	background-image: url("chutney.png");
+}
+.items5{
+	position: relative;
+	left: 330px;
+	height: 130px;
+	width: 80%;
+	background-image: url("restaurent-logo5.jpg");
+}
+.items6{
+	position: relative;
+	left: 250px;
+	height: 130px;
+	width: 100%;
+	background-image: url("restaurent-logo6.jpg");
+}
+.items7{
+position: relative;
+	left: 270px;
+	height: 130px;
+	width: 45%;
+	background-image: url("chill.jpg");
+}
+.items8{
+position: relative;
+	left: 120px;
+	height: 130px;
+	width: 180%;
+	background-image: url("Indiblaze.png");
+}
+/**/
+h3
+{ 
+position: absolute; 
+top: 2500px; /* The exact location of the text from the top of the image*/
+left: 200px; /* Other beautification stuff */
+width: 100%; 
+bottom: 5px;
+display: inline;
+}
+/* Coloring time */
+h3 span /* decorating the text within the span tag */
+{ 
+color: white; 
+font-weight: bold;
+background: rgba(0, 0, 0, 0.7); 
+padding: 10px; 
+}
+i {
+    border: 2px solid black;
+    border-width: 0 3px 3px 0;
+    display: inline;
+    padding: 5px;
+    border-color: OrangeRed;
+}
+button{
+	color: SeaShell;
+	background-color: Tomato;
+	padding: 3px;
+}
+.right {
+    -webkit-transform: rotate(-80deg);
+}
+/*Footer*/
+footer{
+	height: 100px;
+	width: 100%;
+	background-color: grey;
+	color: Black;
+}
+.media{
+	position: relative;
+	left: 90px;
+	top: 3px;
+}
+/*contact page*/
+.mapouter{
+	display: inline;
+	position: relative;
+	left: 500px;
+	bottom: 230px;
+}
+.back{
+	height: 750px;
+	width: 100%;
+}
+.con{
+	position: relative;
+	left: 150px;
+	top: 50px;
+}
+/*login page*/
+.container {
+    font-family: Arial;
+}
+
+.text-block {
+    position: absolute;
+    left: 520px;
+    top: 220px;
+    width: 350px;
+    height: 250px;
+    background-color: Tomato;
+    color: white;
+    border-radius: 20%;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.log{
+	position: relative;
+	left: 20px;
+}
+/*signup page*/
+.container1 {
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block1 {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    height: 380px;
+    width: 350px;
+    background-color: black;
+    color: SeaShell;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+/*story page*/
+.about{
+	word-spacing: 13px;
+	line-height: 30px;
+	height: 500px;
+	width: 100%;
+	text-align: left,justify;
+	font-family: 'Tangerine', cursive;
+}
+.context{
+ width: 40%;
+ position: relative;
+left: 20px;
+font-size: 30px;
+}
+.pic{
+	width: 120%;
+	height:500px;
+	position: relative;
+	left:600px;
+	bottom: 450px;
+	display: inline;
+	clear: both;
+}
+.main-context{
+	position: absolute;
+	top: 650px;
+	height: 450px;
+	width: 100%;
+    background-image: url("map.gif");	
+}
+.location{
+	position: relative;
+	left: 200px;
+}
+.places{
+	position: relative;
+	left: 400px;
+	bottom: 350px;
+}
+.plc{
+	position: relative;
+	left: 800px;
+	bottom: 600px;
+}
+li{
+	font-size: 20px;
+	text-indent: 5px;
+	list-style-image: url("loct.png");
+}
+span{
+	font-size: 25px;
+}
+.checked {
+    color: orange;
+}
+/**/
+.contain {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 1px 0
+}
+
+.contain::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contain img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.contain span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+table{
+	position: relative;
+	bottom: 220px;
+}
+/*rest*/
+.restbtn{
+	background-color: green;
+	color: SeaShell;
+	padding: 5px;
+	height: 20px;
+
+}
+/**/
+.pizza-menu{
+			height: 100px;
+			width: 100%;
+			float: center;
+		}
+		p{
+			color: green;
+			display: inline-block;
+			height: 180px;
+			width: 40%;
+			text-align: left,justify;
+		}
+		.item{
+			height: 240px;
+			width: 25%;
+			border: none;
+			background-color: grey;
+			position: relative;
+			left: 50px;
+		}
+		button{
+			background-color: green;
+			color: SeaShell;
+			height: 30px;
+			padding: 2px;
+		}
+		mark{
+			float: right;
+		}
+		.item1{
+			position: absolute;
+			left: 500px;
+			height: 240px;
+			width: 25%;
+			top: 120px;
+		}
+		.item2{
+			position: absolute;
+			left: 950px;
+			height: 240px;
+			width: 25%;
+			bottom: 250px;
+		}
+		.drinks{
+			height: 1000px;
+			width: 50%;
+			position: relative;
+			top: 150px;
+		}
+		.cool{
+			column-count: 3;
+			column-rule-color: gray;
+			column-rule-style: dashed;
+			height: 500px;
+			width: 2000px;
+		}
+		.ice{
+			position: relative;
+			top: 600px;
+			height: 1000px;
+			width: 100%;
+		}
+		.cream{
+			height: 500px;
+			width: 100%;
+		}
+		.cake{
+			margin-top: 20px;
+		}
+		.creamy{
+			position: relative;
+			left: 600px;
+			bottom: 450px;
+		}
+		.amt{
+			color: red;
+			float: left;
+		}
+		/*Bavarchi menu*/
+		mark{
+			color: SeaShell;
+			background-color: pink;
+		}
+		.p1{
+			text-align: left; 
+			position: relative;
+			bottom: 100px;
+		}
+		.bav{
+			position: relative;
+			left: 500px;
+		}
+		.bavarchi{
+			background-image: url("food.jpg");
+
+		}
+@media (max-width: 500px) {
+  .contain {
+      text-align: center;
+  }
+  .contain img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
