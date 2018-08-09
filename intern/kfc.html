@@ -1,80 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<style type="text/css">
-		.kfc-container {
-    position: relative;
-    text-align: center;
-    color: green;
-}
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-.centered {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}p{
-	font-size: 40px;
-}
-.left{
-	position: relative;
-	right: 200px;
-}
-.text{
-	font-size: 20px;
-}
-.kf-container{
-	position: relative;
-	top: 600px;
-}
-</style>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>KFC-Menu</title>
 </head>
 <body>
-<div class="kfc-container">
-	<img class="mySlides" src="/home/grepthor/Desktop/intern/kfc1.jpg" height="500px" width="60%">
-		<div class="centered"><p>Chicken Menu</p>
-			<div class="left"><p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
-				<p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
-			</div>
+	<div class="container">
+		<div class="blockquote-reverse">
+			<h1>KFC-Menu</h1>
 		</div>
-	</div>
-<div class="kf-container">
-	<img class="mySlides" src="/home/grepthor/Desktop/intern/fc.jpg" height="500px" width="60%">
-		<div class="centered"><p>Menu</p>
-			<div class="left"><p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
-				<p class="text">Chicken Manchuria------------------<mark>$100</mark></p>
-			</div>
+		<div class="large well text-center">
+			<lead>Crushers</lead>			
 		</div>
+		<table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Choco Peanut Bolt</td>
+        <td>$150</td>
+      </tr>
+      <tr>
+      	<td>Green Mango jelly</td>
+      	<td>$200</td>
+      </tr>
+      <tr>
+      	<td>ChocoPepper Mint</td>
+      	<td>$140</td>
+      </tr>
+      <tr>
+      	<td>Blackforest</td>
+      	<td>$120</td>
+      </tr>
+      <tr>
+      	<td>Oreo Cookies&Cream</td>
+      	<td>$300</td>
+      </tr>
+      <tr>
+      	<td>Double Chocolate</td>
+      	<td>$200</td>
+      </tr>
+      <tr>
+      	<td>Strawberry Pine Lime</td>
+      	<td>$500</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+	<div class="small well text-center">
+		<small>CHICKEN GALLERY</small>
 	</div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Item</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Chicken Bucket</td>
+				<td>$399</td>
+			</tr>
+			<tr>
+				<td>Chicken Hotdog</td>
+				<td>$200</td>
+			</tr>
+			<tr>
+				<td>Chicken Wings</td>
+				<td>$300</td>
+			</tr>
+			<tr>
+				<td>Chicken Popcorn</td>
+				<td>$225</td>
+			</tr>
+			<tr>
+				<td>Crispy Fried Chicken</td>
+				<td>$50</td>
+			</tr>
+			<tr>
+				<td>Double Down</td>
+				<td>$300</td>
+			</tr>
+			<tr>
+				<td>Zinger Burger</td>
+				<td>$300</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="container">
+	<pre class="text-center">DRINKS</pre>
+	<table class="table table-hover">
+		<thead>
+		<tr>
+			<th>Item</th>
+			<th>Price</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Pepsi</td>
+				<td>$80</td>
+			</tr>
+			<tr>
+				<td>Coke</td>
+				<td>$40</td>
+			</tr>
+			<tr>
+				<td>Thumsup</td>
+				<td>$30</td>
+			</tr>
+			<tr>
+				<td>Limca</td>
+				<td>$20</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 </body>
 </html>
